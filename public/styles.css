@@ -1,0 +1,143 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F9F7F7;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    background: #112D4E;
+    color: #F9F7F7;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h2, .sidebar h3 {
+    text-align: center; 
+    border-bottom: 2px solid #DBE2EF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#PP {
+    max-width: 100%;
+    height: 25vh;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px auto; 
+}
+
+.sidebar p, .sidebar ul {
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-left: 15px; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    size: 30px;
+}
+
+.contact p img.icon, .contact p svg.icon {
+    width: 26px; 
+    height: 26px; 
+    vertical-align: middle; 
+    margin-right: 8px; 
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.sidebar ul li {
+    background: #3F72AF;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+    background: #F9F7F7;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.content h1, .content h2, .content h3, .content h4, .content h5, .content p {
+    color: #112D4E;
+    margin: 0; 
+    line-height: 1.6; /* Ajustar el line-height para un espacio más compacto */
+}
+
+a {
+    text-decoration: none;
+    color: #F9F7F7; 
+}
+
+.sidebar a:hover {
+    color: #3F72AF; 
+}
+
+#telefono {
+    width: 22px; 
+    height: 22px; 
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #F9F7F7; 
+}
+
+.sidebar a:hover {
+    color: #3F72AF; 
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    width: 100px;
+    text-align: left;
+}
+
+.progress {
+    flex: 1;
+    height: 10px;
+    background: #DBE2EF;
+    border-radius: 5px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #3F72AF;
+    border-radius: 5px;
+}
+.badge{
+    width: 250px;
+    height: auto;
+    padding: 0 0 25px 0;
+
+}
+.badge:hover{
+    width: 275px;
+    height: auto;
+    padding: 0;
+}
